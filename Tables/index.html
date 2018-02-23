@@ -7,7 +7,7 @@
     <title>Tables in HTML</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    
 </head>
 
 <body>
@@ -27,19 +27,19 @@
             <tbody class="tabla-cuerpo">
                 <tr>
                     <td>Manzana</td>
-                    <td>$ 0.25</td>
+                    <td class="price">$ 0.25</td>
                 </tr>
                 <tr>
                     <td>Naranja</td>
-                    <td>$ 0.25</td>
+                    <td class="price">$ 0.25</td>
                 </tr>
                 <tr>
                     <td>Plátano</td>
-                    <td>$ 1.00</td>
+                    <td class="price">$ 1.00</td>
                 </tr>
                 <tr>
                     <td>Piña</td>
-                    <td>$ 2.00</td>
+                    <td class="price">$ 2.00</td>
                 </tr>
             </tbody>
             <tfoot class="tabla-pie">
@@ -50,14 +50,14 @@
             </tfoot>
         </table>
     	</div>
-    	<div class="detalle">
-    		<p><span>Nombre: </span></p>
-    		<p><span>Precio: </span></p>
+    	<div id="visible" class="detalle">
+    		<p><span>Nombre: </span><span id="nombreFruta"></span></p>
+    		<p><span>Precio: </span><span id="precioFruta"></span></p>
     	</div>
         
 
     </div>
 
 </body>
-
+<script src="main.js"></script>
 </html>

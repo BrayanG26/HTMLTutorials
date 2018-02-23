@@ -43,8 +43,12 @@ th:hover,td:hover {
 .detalle {
 	border: 2px solid rgb(24, 20, 18);
 	left: 5px;
-	bottom: 75px;
-	width: 180px;
-	height: 90px;
+	bottom: 60px;
+	width: 170px;
+	height: 110px;
+	padding: 15px 20px 14px 34px;
+}
 
+#visible {
+	display: none;
 }
