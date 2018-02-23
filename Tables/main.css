@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+.tabla-detalle {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tabla-frutas {
+	border: 2px solid black;
+	border-collapse: separate;
+	border-spacing: 2px;
+    text-align: center;
+}
+
+.tabla-encabezado th {
+    background-color: rgb(244, 176, 66);
+    width: 80px;
+}
+
+.tabla-cuerpo td {
+    background-color: honeydew;
+}
+
+.tabla-pie th {
+    background-color: lightsteelblue;
+}
+
+th:hover,td:hover {
+    background-color: rgb(216, 21, 63);
+    color: rgb(253, 253, 253);
+    cursor: pointer;
+}
+
+.detalle, .tabla {
+	display: inline-block;
+	position: relative;
+}
+
+.detalle {
+	border: 2px solid rgb(24, 20, 18);
+	left: 5px;
+	bottom: 75px;
+	width: 180px;
+	height: 90px;
+
+}
